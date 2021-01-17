@@ -60,4 +60,4 @@ grid-auto-flow: column dense;  /* 纵向紧凑排列 */
 | `align-content` | ... | ... | ... |
 | `align-items` | ... | ... | ... |
 | `align-self` | ... | ... | ... |
-以上属性均有其简写形式，为 `place-xxx`
+| 以上属性均有其简写形式，为 `place-xxx` | ... | ... | ... |
