@@ -54,10 +54,11 @@ grid-auto-flow: column dense;  /* 纵向紧凑排列 */
 ## 栅格对齐方式
 | 属性名 | 作用的目标 | 属性用于 | 取值 |
 | :---: | :---: | :---: | :---: |
-| `justify-content` | 整个栅格的横向 | 栅格容器 | `start | center | end | stretch | space-around | space-between | space-evenly` |
-| `justify-items` | 全部栅格元素的横向 | 栅格容器 | `start | center | end | stretch` |
-| `justify-self` | 栅格元素的横向 | 栅格元素 | `start | center | end | stretch` |
+| `justify-content` | 整个栅格的横向 | 栅格容器 | <code>start &#124; center &#124; end &#124; stretch &#124; space-around &#124; space-between &#124; space-evenly</code> |
+| `justify-items` | 全部栅格元素的横向 | 栅格容器 | <code>start &#124; center &#124; end &#124; stretch</code> |
+| `justify-self` | 栅格元素的横向 | 栅格元素 | <code>start &#124; center &#124; end &#124; stretch</code> |
 | `align-content` | ... | ... | ... |
 | `align-items` | ... | ... | ... |
 | `align-self` | ... | ... | ... |
-| 以上属性均有其简写形式，为 `place-xxx` | ... | ... | ... |
+
+以上属性均有其简写形式，为 `place-xxx`
