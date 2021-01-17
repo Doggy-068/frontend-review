@@ -1,0 +1,16 @@
+{
+  "name": "frontend-review",
+  "version": "1.0.0",
+  "description": "前端知识整理回顾",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doggy-068/frontend-review.git"
+  },
+  "keywords": ["frontend"],
+  "author": "Doggy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Doggy-068/frontend-review/issues"
+  },
+  "homepage": "https://github.com/Doggy-068/frontend-review#readme"
+}
