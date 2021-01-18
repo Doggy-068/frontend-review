@@ -6,3 +6,4 @@
 * [数组](array.md)
 * [防抖](debounce.md)
 * [节流](throttle.md)
+* [Promise](promise.md)
