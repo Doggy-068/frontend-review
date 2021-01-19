@@ -1,6 +1,6 @@
 # Promise
 
-## Promise 实现(基础版)
+## Promise实现(基础版)
 ```javascript
 class MyPromise {
   #status = 'pending'
