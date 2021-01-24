@@ -4,6 +4,7 @@
 * [作用域](scope.md)
 * [严格模式](strict.md)
 * [数组](array.md)
+* [类](class.md)
 * [new](new.md)
 * [防抖](debounce.md)
 * [节流](throttle.md)
