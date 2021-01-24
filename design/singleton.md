@@ -1,7 +1,7 @@
 # 单例模式
 一个类只有一个实例
 
-# JavaScript实现
+## JavaScript实现
 ```javascript
 const singleton = function (fn) {
   let result = null
