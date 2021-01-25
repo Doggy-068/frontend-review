@@ -6,7 +6,7 @@
 * [JavaScript](./javascript/README.md)
 * [TypeScript](./typescript/README.md)
 * [设计模式](./design/README.md)
-* [性能优化](./performance.md)
+* [性能优化](./performance/README.md)
 
 # 参考资料
 《CSS权威指南》&ensp;Eric A.Meyer & Estelle Weyl&ensp;中国电力出版社&ensp;978-7-5198-2659-8  
