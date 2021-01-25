@@ -1,6 +1,7 @@
 # 节流
 在某个时间段内多次触发事件，按照一定时间间隔多次调用函数
 
+## JavaScript实现
 ```javascript
 /**
  * @description 防抖

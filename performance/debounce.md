@@ -1,6 +1,7 @@
 # 防抖
 在某个时间段内多次触发事件，只有最后一次调用函数
 
+## JavaScript实现
 ```javascript
 /**
  * @description 防抖
