@@ -7,8 +7,12 @@
 * [TypeScript](./typescript/README.md)
 * [设计模式](./design/README.md)
 * [性能优化](./performance/README.md)
+* [Vue](./vue/README.md)
 
 # 参考资料
+<a href="https://developer.mozilla.org/zh-CN/">MDN Web 文档</a>  
+<a href="https://cn.vuejs.org/">Vue.js</a>  
+<a href="https://vue-js.com/learn-vue/">Vue源码导读</a>  
 《CSS权威指南》&ensp;Eric A.Meyer & Estelle Weyl&ensp;中国电力出版社&ensp;978-7-5198-2659-8  
 《你不知道的JavaScript》&ensp;Kyle Simpson&ensp;人民邮电出版社&ensp;978-7-115-38573-4  
 《深入理解ES6》&ensp;Nicholas C.Zakas&ensp;电子工业出版社&ensp;978-7-121-31798-9  
