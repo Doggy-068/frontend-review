@@ -1,4 +1,6 @@
 # new
+从构造函数创建对象，对象实例与构造函数的原型相同  
+如果构造函数返回值为 `object`，则对象实例为该返回值，且实例原型不指向构造函数原型
 
 ## new实现
 ```javascript
@@ -14,7 +16,10 @@ Animal.prototype.makeSound = function () {
 var MyNew = function (Construct, ...args) {
   var obj = {}
   obj.__proto__ = Construct.prototype
-  Construct.apply(obj, args)
+  var result = Construct.apply(obj, args)
+  if (typeof result === 'object') {
+    return result
+  }
   return obj
 }
 

@@ -10,7 +10,10 @@ Animal.prototype.makeSound = function () {
 var MyNew = function (Construct, ...args) {
   var obj = {}
   obj.__proto__ = Construct.prototype
-  Construct.apply(obj, args)
+  var result = Construct.apply(obj, args)
+  if (typeof result === 'object') {
+    return result
+  }
   return obj
 }
 
