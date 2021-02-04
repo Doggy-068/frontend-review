@@ -2,9 +2,10 @@
 前端知识整理回顾
 
 # 目录
-* [CSS](./css/README.md)  
+* [CSS](./css/README.md)
 * [JavaScript](./javascript/README.md)
 * [TypeScript](./typescript/README.md)
+* [数据结构与算法](./algorithm/README.md)
 * [设计模式](./design/README.md)
 * [性能优化](./performance/README.md)
 * [Vue](./vue/README.md)
