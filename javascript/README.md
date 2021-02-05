@@ -5,5 +5,6 @@
 * [严格模式](strict.md)
 * [数组](array.md)
 * [类](class.md)
+* [模块](module.md)
 * [new](new.md)
 * [Promise](promise.md)
