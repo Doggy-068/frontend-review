@@ -108,3 +108,22 @@ function midOrderTraversal(node: BinaryTreeNode) {
 
 console.log(midOrderTraversal(rootNode)) // [3, 7, 1, 4, 0, 5, 2, 6]
 ```
+
+### 后序遍历
+遍历完某个节点的左子树和右子树后才输出该节点
+```typescript
+//递归实现
+function postOrderTraversal(node: BinaryTreeNode) {
+  const res = [];
+  (function executor(node: BinaryTreeNode | null) {
+    if (node !== null) {
+      executor(node.left)
+      executor(node.right)
+      res.push(node.val)
+    }
+  })(node)
+  return res
+}
+
+console.log(postOrderTraversal(rootNode)) // [7, 3, 4, 1, 5, 6, 2, 0]
+```
