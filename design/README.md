@@ -5,3 +5,4 @@
 * [代理模式](proxy.md)
 * [迭代器模式](iteration.md)
 * [发布-订阅模式](publish-subscribe.md)
+* [命令模式](command.md)

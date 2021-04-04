@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>命令模式</title>
+</head>
+
+<body>
+  <div id="app">
+    <button id="btn">开门</button>
+  </div>
+  <script>
+    class Command {
+      execute
+      constructor(method) {
+        this.execute = method
+      }
+    }
+    function setCommand(button, command) {
+      button.addEventListener('click', command.execute)
+    }
+    function openDoor() {
+      console.log('开门')
+    }
+    const openDoorCommand = new Command(openDoor)
+    setCommand(document.getElementById('btn'), openDoorCommand)
+  </script>
+</body>
+
+</html>
