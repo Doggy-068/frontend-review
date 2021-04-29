@@ -1,8 +1,3 @@
-# Promise
-处理异步操作
-
-## 基本使用
-```javascript
 new Promise((resolve, reject) => {
   setTimeout(() => {
     const num = Math.random()
@@ -13,10 +8,7 @@ new Promise((resolve, reject) => {
     }
   }, 2000)
 }).then(res => {
-  //resolve
   console.log(res)
 }).catch(err => {
-  //reject
   console.log(err)
 })
-```
