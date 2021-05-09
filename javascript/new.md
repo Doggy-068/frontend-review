@@ -28,6 +28,6 @@ var dog = MyNew(Animal, 'dog', 1)
 var cat = new Animal('cat', 2)
 console.log(dog) // Animal {name: 'dog', age: 1}
 console.log(cat) // Animal {name: 'cat', age: 2}
-dog.makeSound() // dog sound
-cat.makeSound() // cat sound
+dog.makeSound() // 'dog sound'
+cat.makeSound() // 'cat sound'
 ```

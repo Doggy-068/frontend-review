@@ -1,19 +1,4 @@
 # 基本类型
-1、 [Any](#Any)  
-2、 [Number](#Number)  
-3、 [Bigint](#Bigint)  
-4、 [String](#String)  
-5、 [Boolean](#Boolean)  
-6、 [Array](#Array)  
-7、 [Tuple](#Tuple)  
-8、 [Enum](#Enum)  
-9、 [Symbol](#Symbol)  
-10、[Null](#Null)  
-11、[Undefined](#Undefined)  
-12、[Void](#Void)  
-13、[Unknown](#Unknown)  
-14、[Never](#Never)  
-15、[Object](#Object)
 
 ## Any
 任意类型，可赋值给其它类型，也可被其它类型赋值

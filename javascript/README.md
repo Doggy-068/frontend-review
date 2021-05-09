@@ -3,7 +3,6 @@
 * [数据类型](dataType.md)
 * [作用域](scope.md)
 * [严格模式](strict.md)
-* [数组](array.md)
 * [类](class.md)
 * [模块](module.md)
 * [new](new.md)
