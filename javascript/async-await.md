@@ -46,3 +46,27 @@ async function asyncFunc() {
  */
 asyncFunc().then(res => { console.log(res) }) 
 ```
+
+## 失败处理
+async函数中用`trycatch`包裹`await`以接收`Promise`失败时的返回值。
+```javascript
+async function asyncFunc() {
+  try {
+    const res = await new Promise((resolve, reject) => {
+      const flag = false
+      setTimeout(() => {
+        if (flag) {
+          resolve('success')
+        } else {
+          reject('fail')
+        }
+      })
+    })
+    return res
+  } catch (error) {
+    return error
+  }
+}
+
+asyncFunc().then(res => console.log(res))  // 'fail'
+```
