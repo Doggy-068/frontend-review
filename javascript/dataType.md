@@ -37,7 +37,7 @@ console.log(arr)  // [1, '1']
 ```
 
 ## 对象
-键值对的映射，键为字符串，值为任意数据类型；引用数据类型
+键值对的映射，键为字符串/`symbol`，值为任意数据类型；引用数据类型
 ```javascript
 const obj = {
   frontend: ['HTML', 'CSS', 'JavaScript']
@@ -64,4 +64,10 @@ let point = null
 if (point && Array.isArray(point)) {
   point.push(1)
 }
+```
+
+## symbol
+`Symbol()`返回的值具有唯一性
+```javascript
+console.log(Symbol(1) === Symbol(1))  // false
 ```
