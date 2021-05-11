@@ -7,7 +7,7 @@
 function singleTon(Constructor) {
   // 设置变量 result 标记实例对象
   let result = null
-  // 返回一个函数，函数内访问变量 result(闭包)
+  // 返回一个函数，函数内访问变量 result（闭包）
   return function (...args) {
     // 如果 result 已指向实例对象，则构造函数不会执行，以实现单一实例对象
     return result || (result = new Constructor(...args))
