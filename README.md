@@ -9,14 +9,11 @@
 * [数据结构与算法](./algorithm/README.md)
 * [设计模式](./design/README.md)
 * [性能优化](./performance/README.md)
-* [Vue](./vue/README.md)
 
 # 参考资料
 
 ## 网站
-<a href="https://developer.mozilla.org/zh-CN/">MDN Web 文档</a>  
-<a href="https://cn.vuejs.org/">Vue.js</a>  
-<a href="https://vue-js.com/learn-vue/">Vue源码导读</a>
+<a href="https://developer.mozilla.org/zh-CN/">MDN Web 文档</a>
 
 ## 书籍
 《CSS权威指南》&ensp;Eric A.Meyer & Estelle Weyl&ensp;中国电力出版社&ensp;978-7-5198-2659-8  
