@@ -6,5 +6,6 @@
 * [类](class.md)
 * [模块](module.md)
 * [new](new.md)
+* [单线程与异步](thread-async.md)
 * [Promise](promise.md)
 * [async & await](async-await.md)
