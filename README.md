@@ -5,7 +5,6 @@
 * [CSS](./css/README.md)
 * [JavaScript](./javascript/README.md)
 * [TypeScript](./typescript/README.md)
-* [Dart](./dart/README.md)
 * [数据结构与算法](./algorithm/README.md)
 * [设计模式](./design/README.md)
 * [性能优化](./performance/README.md)
