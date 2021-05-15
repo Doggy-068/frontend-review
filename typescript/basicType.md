@@ -67,3 +67,21 @@ enum Direction {
 }
 const anyValue: any = Direction
 ```
+
+## unknown
+目前不知道变量的具体类型，通常用于动态内容，如从API获取的数据，这些变量可以是任意类型
+```typescript
+// unknown可以被任意类型赋值
+let data: unknown
+data = 'data from API'
+data = {
+  data: 'data from API',
+  code: 200
+}
+```
+`unknown`只能赋值给`any`类型
+```typescript
+let data: unknown
+data = 'data from API'
+const str: string = data  // 不能将类型“unkonwn”分配给类型“string”
+```
