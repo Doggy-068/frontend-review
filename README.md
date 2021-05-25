@@ -21,3 +21,6 @@
 《深入理解ES6》&ensp;Nicholas C.Zakas&ensp;电子工业出版社&ensp;978-7-121-31798-9  
 《JavaScript设计模式与开发实践》&ensp;曾探&ensp;人民邮电出版社&ensp;978-7-115-38888-9  
 《高性能JavaScript》&ensp;Nicholas C.Zakas&ensp;电子工业出版社&ensp;978-7-121-26677-5
+
+# 其它链接
+<a href="https://juejin.cn/user/2515293092715672/activities">掘金主页</a>
