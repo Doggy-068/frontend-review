@@ -3,6 +3,7 @@
 
 # 目录
 * [CSS](./css/README.md)
+* [Sass](./sass/README.md)
 * [JavaScript](./javascript/README.md)
 * [TypeScript](./typescript/README.md)
 * [数据结构与算法](./algorithm/README.md)
