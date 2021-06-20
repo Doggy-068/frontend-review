@@ -85,3 +85,15 @@ let data: unknown
 data = 'data from API'
 const str: string = data  // 不能将类型“unkonwn”分配给类型“string”
 ```
+`unknown`不会丢失类型安全
+```typescript
+let variable: unknown = 'hello'
+variable = 600
+// 如果不加类型检查直接调用函数，则编译器报错
+if (typeof variable === 'function') {
+  variable()
+}
+if (typeof variable === 'string') {
+  variable.toUpperCase()
+}
+```
